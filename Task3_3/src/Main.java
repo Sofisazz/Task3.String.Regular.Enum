@@ -25,6 +25,6 @@ public class Main {
         String stroka = in.nextLine();
 
         System.out.print(findHex(stroka));
+        in.close();
     }
-
 }
