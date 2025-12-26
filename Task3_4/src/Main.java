@@ -19,6 +19,6 @@ public class Main {
         }
 
         System.out.println("Количество слов в тексте: " + count);
+        in.close();
     }
-
 }
