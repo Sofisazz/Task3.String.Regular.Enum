@@ -12,11 +12,12 @@ public class Main {
         StringBuilder stroka = new StringBuilder();
         String[] words = text.split("\\s*[\\s,!.;:?]+\\s*");
         System.out.println(Arrays.toString(words));
-        for(String word : words){
+        for(String word : words) {
             stroka.append(word.charAt(word.length()-1));
         }
 
         System.out.println("Полученный текст: " + stroka);
+        in.close();
     }
-
 }
+
