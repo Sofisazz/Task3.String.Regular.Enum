@@ -17,5 +17,7 @@ public class Main {
         }
 
         System.out.println("Количество знаков препинания: " + count);
+        in.close();
+    }
 }
-}
+
