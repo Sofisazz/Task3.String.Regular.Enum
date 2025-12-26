@@ -13,5 +13,6 @@ public class Main {
         String newStr = matcher.replaceAll("<p>");
 
         System.out.println("\nНовая строка:\n" + newStr);
+        in.close();
     }
 }
